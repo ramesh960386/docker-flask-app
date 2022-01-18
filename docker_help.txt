@@ -1,0 +1,38 @@
+https://www.kaggle.com/code
+https://flutterq.com/solved-warning-running-pip-as-the-root-user-can-result-in-broken-permissions-and-conflicting-behaviour/
+
+
+sudo apt-get install python3-venv
+python3 -m venv env
+source env/bin/activate
+#########################################################################
+
+
+https://docs.docker.com/compose/gettingstarted/
+https://aws.amazon.com/getting-started/hands-on/serve-a-flask-app/
+
+build=>  docker-compose up
+Re-build=> docker-compose up
+run detached mode=> docker-compose up -d
+
+docker-compose run
+docker-compose run web env
+docker-compose stop
+docker-compose down --volumes
+
+
+list of images=> docker images
+list of containers=> docker-compose ps
+
+remove all images=> docker image prune -a
+remove all containers=> docker rm $(docker ps --filter status=exited -q)
+
+
+`docker-compose build` or `docker-compose up --build`.
+
+
+##
+git overide local changes
+
+git reset --hard HEAD
+git pull
